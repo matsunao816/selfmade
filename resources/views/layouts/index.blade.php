@@ -552,7 +552,7 @@
             <li class="nav-item">
               <a class="nav-link text-light" href="/register">会員登録</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-light">
                 <form action="{{ route('login') }}" method="POST" enctype="multipart/form-data">
                 {{ csrf_field() }}
@@ -561,7 +561,7 @@
                   <input class="text-light d-none d-sm-block" type="submit" value="自動ログイン(企業様)" style="border:none; background-color:transparent;">
                 </form> 
               </a>
-                <!--<form action="{{ route('login') }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('login') }}" method="POST" enctype="multipart/form-data">
                   {{ csrf_field() }}
                   <input type="hidden" name="email" value="gest@gest.com"> 
                   <input type="hidden" name="password" value="naoki0409"> 
@@ -569,7 +569,7 @@
                           {{ __('自動ログイン(企業様)') }}
                       </button>
                 </form>  -->
-            </li>
+            </li> -->
             @endif
           </ul>
         </div>
